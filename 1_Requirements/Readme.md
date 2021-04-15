@@ -63,12 +63,12 @@ C:\Users\M GOPINATH\Pictures\Screenshots\swot.png
 
 ## Who:
 
- This is for the users
+ This is for the users 
 
 
 ## What:
 
-**TBD**
+Cashflow is application
 
 ## When:
 
