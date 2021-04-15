@@ -53,6 +53,8 @@ view users saving
 
 C:\Users\M GOPINATH\Pictures\Screenshots\swot.png
 
+.[]C:\Users\M GOPINATH\Pictures\Screenshots\swot.png
+
 # 4W&#39;s and 1&#39;H
 
 ## Who:
