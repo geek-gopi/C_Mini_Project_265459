@@ -49,7 +49,7 @@ view the users cashflow
 view users saving
 
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+![](https://github.com/geek-gopi/C_Mini_Project_265459/blob/main/1_Requirements/swot.png)
 
 
 # 4W&#39;s and 1&#39;H
