@@ -16,7 +16,7 @@
 
 ###  Behavioural Diagram
 
-![](https://github.com/geek-gopi/C_Mini_Project_265459/blob/main/2_Design/uml.png)
+![](https://github.com/geek-gopi/C_Mini_Project_265459/blob/main/2_Design/umlusecaseDesign.png)
 
 
 ## Low Level Design 
