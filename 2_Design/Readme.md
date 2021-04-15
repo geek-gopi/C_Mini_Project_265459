@@ -7,9 +7,6 @@
 #### Architecture Design
 
 
---- TBD Structural and Behavioural Diagram
-![HighLevelStructuralDiagram](Link to Pic)
-![HighLevelBehaviouralDiagram](Link to Pic)
 
 ![](https://github.com/geek-gopi/C_Mini_Project_265459/blob/main/2_Design/Architecture.png)
 
