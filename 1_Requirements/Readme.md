@@ -49,15 +49,10 @@ view the users cashflow
 view users saving
 
 ## SWOT ANALYSIS
-<<<<<<< HEAD
-![SWOT-Sample](C:\Users\M GOPINATH\Pictures\Screenshots\swot.png)
-=======
+
+![SWOT-Sample]
 ![](https://github.com/geek-gopi/C_Mini_Project_265459/blob/main/1_Requirements/swot.png)
->>>>>>> 16bfcf5913e2f5e9be7b8c8de597e80f0866e026
 
-C:\Users\M GOPINATH\Pictures\Screenshots\swot.png
-
-.[]C:\Users\M GOPINATH\Pictures\Screenshots\swot.png
 
 # 4W&#39;s and 1&#39;H
 
