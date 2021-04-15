@@ -8,5 +8,5 @@ Module 1 completion - C mini project of StepIn LTTS
 [![Contribution Check - Git Inspector](https://github.com/geek-gopi/C_Mini_Project_265459/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/geek-gopi/C_Mini_Project_265459/actions/workflows/gitinspector.yml)
 [![Unit Testing - Unity](https://github.com/geek-gopi/C_Mini_Project_265459/actions/workflows/unity.yml/badge.svg)](https://github.com/geek-gopi/C_Mini_Project_265459/actions/workflows/unity.yml)
 
-[![Coverage Badge](https://img.shields.io/badge/Coverage-96.11-brightgreen)]()
+
 
