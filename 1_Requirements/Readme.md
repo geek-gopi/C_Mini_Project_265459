@@ -4,7 +4,7 @@
 
 ## Research
 
--- Cashflow application is essential part of this generation as money needs to be managed efficiently therefore applkication is designed to keep a track of Income-Expense of the users.
+-- Cashflow application is essential part of this generation as money needs to be managed efficiently therefore application is designed to keep a track of Income-Expense of the users.
 ### Benefits
 --There are many application available in market but this application is user-friendly and can be easy managed by uses to keep track of their savings after their expenses being deducted from the various sources of income of the user. 
 ### Overview
@@ -56,24 +56,24 @@ view users saving
 
 ## Who:
 
- This is for the users
+ This is everone who is ready to manage his cashflow and make himself aware of the money management
 
 
 ## What:
 
-**TBD**
+Cashflow application will give the exact saving done by the user after calculated all the incomes and expenses done by the user
 
 ## When:
 
-**TBD**
+When you understand the importance of money management and start to be accountable for your expenses.
 
 ## Where:
 
-**TBD**
+This is used by the user in day to day life where they can track their expenses and incomes generated daily or monthly
 
 ## How:
 
-**TBD**
+This is fulfilled in very simple manner here as user need to enter his details like name and futher go on by entering the incomes that he has earned and expenses that he is making to finally go to the conclusion of the saving that he is doing in his day to day life.
 
 # Detail requirements
 ## High Level Requirements: 
@@ -83,20 +83,18 @@ view users saving
 | HR02 | User shall be able to add his expenses | Techincal |  IMPLEMENTED  |
 | HR03 | User shall be able to view his total saving | Techincal |  IMPLEMENTED  |
 | HR04 | User shall be able to add varied income from other sources | Techincal |  IMPLEMENTED  |
-| HR05 | User shall be able to add new users  | Techincal |  IMPLEMENTED  |
-| HR06 | User shall be able to read data from a file | Techincal |  IMPLEMENTED  |
-| HR07 | Data should not be lost in case of faliure | Scenario | FUTURE |
-| HR08 | Data should always be stored when closing the system | Scenario |  IMPLEMENTED |
+| HR05 | User shall be able to add new users by his name | Techincal |  IMPLEMENTED  |
+| HR06 | User shall be able to view his total expenses| Techincal |  IMPLEMENTED  |
+
 ##  Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
 | ------ | --------- | ------ | ----- |
-| LR01 | (1). New record shall be added by providing all the asked information                                                                                                    (2). Id should be unique and validated from exixting user | HR01 |  IMPLEMENTED  |
-| LR02 | Reading user data should be possible at end by displaying all the records available using display option | HR02 |  IMPLEMENTED |
-| LR03 | While reading all the records, only 10 records per page should be visible and should add 10 more if user wants to see more | HR02 | FUTURE |
-| LR04 | If user searches for an invalid ID "No Record Found" message should be displayed | HR02 |  IMPLEMENTED  |
-| LR05 | User need to search by id for the pateint record to be updated, if no such record is available then "No Record Found" Message should be displayed | HR03 |  IMPLEMENTED  |
-| LR06 | User need to search by id for the pateint record to be deleted, if no such record is available then "No Record Found" Message should be displayed | HR04 |  IMPLEMENTED  |
-| LR05 | User shall be able to save the files, if file already exists then it should append to file and should not overwrite it and if file does not exists then it should create a new file | HR05 |  IMPLEMENTED  |
+| LR01 | (1). New record shall be added by providing all the asked information                                                                                                    | HR01 |  IMPLEMENTED  |
+| LR02 | user go with the option of display should be able to view the entries by the users | HR02 |  IMPLEMENTED |
+| LR03 | Limit the users for adding income and expenses in inappropriate manner | HR02 | FUTURE |
+| LR04 | User Id to searches for expenses | HR02 |  FUTURE  |
+| LR05 | User without adding details will not display his details | HR03 |  IMPLEMENTED  |
+
 
 
