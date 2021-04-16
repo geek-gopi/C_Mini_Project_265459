@@ -12,3 +12,4 @@ Module 1 completion - C mini project of StepIn LTTS
 
 
 
+[![CI](https://github.com/geek-gopi/C_Mini_Project_265459/actions/workflows/main.yml/badge.svg)](https://github.com/geek-gopi/C_Mini_Project_265459/actions/workflows/main.yml)
