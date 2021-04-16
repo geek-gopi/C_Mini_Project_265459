@@ -5,10 +5,11 @@
                      /* Including a header file twice causes all kinds */
                      /* of interesting problems.*/
 
-//#define limit 10
+
 #define b 50 
-//#define EMPLOYEE_PERCENTAGE 12.5f
-//#define EMPLOYER_PERCENTAGE 12.0f
+#define limit 20
+#define EMPLOYEE_PERCENTAGE 12.5f
+#define EMPLOYER_PERCENTAGE 12.0f
 
 struct User
 {
@@ -35,7 +36,7 @@ void display();
 void input();
 void dash();
 
-void calculate();
+void cal();
 
 
 

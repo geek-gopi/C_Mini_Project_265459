@@ -40,11 +40,15 @@ void input(){
         printf("\n Cash spent on travelling ");
         scanf("%f",&bike);
         
+		printf("\n Other Expenses");
+        scanf("%f",&opayment);
+
+        
 		printf("\n Multi-source of income ");
         scanf("%f",&multi);
 
-        printf("\n Other Expenses");
-        scanf("%f",&opayment);
+      //  printf("\n Other Expenses");
+       // scanf("%f",&opayment);
 
         
 
@@ -52,16 +56,17 @@ void input(){
 
  
 
- void calculate(){
+ void cal(){
      
         totalcredit=food+mobile+other+bike+opayment;
-        totaldebit=multi+totalside;
+        totaldebit=multi+sal;
         total_amount=totaldebit-totalcredit;
  }
 
 
 
-void display(){
+void display()
+{
     dash();
 
     printf("\nCASHFLOW ANALYSIS\n");
@@ -70,7 +75,7 @@ void display(){
 
     printf("\n");   
 
-    printf("\t\tCASHOUT_FLOW\t CASHIN_FLOW\n");
+    printf("\t\tCASHOUT_FLOW\t\t CASHIN_FLOW\n");
 
     printf("\n Restaurants and Other Eating expense \t\tRs% .2f",food);
     printf("\nPhone and Internet\t\tRs% .2f",mobile);
@@ -101,6 +106,8 @@ void display(){
         printf("\n");
         printf("\n");
       
+      
+        dash();
 
     
 
