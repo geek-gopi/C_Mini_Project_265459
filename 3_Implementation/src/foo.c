@@ -1,4 +1,4 @@
-#include"foo.h"
+#include "foo.h"
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
