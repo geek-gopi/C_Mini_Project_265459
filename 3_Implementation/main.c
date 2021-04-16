@@ -9,20 +9,15 @@ int main ()
  
    struct User ; 
  
-    line();
-    printf("\n\t\t CashFlow Calculator\n");
-    line();
+    dash();
+    printf("\n\t\t CashFlow Manager\n");
+    dash();
 
     printf("\n");
-     input();
+     dash();
  
 
 
-   // providentfund();  
- /**
- * @brief calculation of provident fund
- *
- */
     calculate();   
  /**
  * @brief calculation of total amount debit and credit , calculation of remaining amount (Deficit or surplus)
@@ -38,14 +33,8 @@ int main ()
  *
  */
 
-   // message();      
-  /**
- * @brief final Message if u are smart budget planner or not.
- *
- */
-
-    printf("\n");
-    printf("\n");
+  printf("\n");
+  printf("\n");
 
     return 0;
 

@@ -5,10 +5,10 @@
                      /* Including a header file twice causes all kinds */
                      /* of interesting problems.*/
 
-#define limit 10
-#define acc 70 
-#define EMPLOYEE_PERCENTAGE 12.5f
-#define EMPLOYER_PERCENTAGE 12.0f
+//#define limit 10
+#define b 50 
+//#define EMPLOYEE_PERCENTAGE 12.5f
+//#define EMPLOYER_PERCENTAGE 12.0f
 
 struct User
 {
@@ -16,34 +16,27 @@ struct User
     float salary;
 }; 
 
-float fnp;
-float phone;
-float enter;
-float car;
-float bills;
-float allow;
-//float side[limit];
-float totalside;
+float food;
+float sal;
+float mobile;
+float other;
+float bike;
+float opayment;
+float multi;
 int i,n;
-//int totalsideInc(int u);
+
 float totalcredit;
 float totaldebit;
 float total_amount;
-char name[acc];
-char month[acc];
-//float basicPay;
-//float employeeFund,employerFund;
+char name[b];
+char month[b];
 
 void display();
 void input();
-void line();
-//void message();
+void dash();
+
 void calculate();
-//void providentfund();
 
-//int calculatesum(int totaldebit,int totalcredit);
-
-//int providentfund2(int basicPay);
 
 
 #endif
