@@ -1,23 +1,49 @@
+
+
 #ifndef FOO_DOT_H    /* This is an "include guard" */
 #define FOO_DOT_H    /* prevents the file from being included twice. */
-#include <stddef.h>                    /* Including a header file twice causes all kinds */
+                     /* Including a header file twice causes all kinds */
                      /* of interesting problems.*/
 
-/**
- * This is a function declaration.
- * It tells the compiler that the function exists somewhere.
- */
+#define limit 10
+#define acc 70 
+#define EMPLOYEE_PERCENTAGE 12.5f
+#define EMPLOYER_PERCENTAGE 12.0f
 
-struct node
+struct User
 {
-char data[20];
-int sal;
-int save;
-struct node *next;
-}*head=NULL;
+    char name[50];
+    float salary;
+}; 
 
+float fnp;
+float phone;
+float enter;
+float car;
+float bills;
+float allow;
+//float side[limit];
+float totalside;
+int i,n;
+//int totalsideInc(int u);
+float totalcredit;
+float totaldebit;
+float total_amount;
+char name[acc];
+char month[acc];
+//float basicPay;
+//float employeeFund,employerFund;
 
-void insertbeg(char*);
-int calc(int);
 void display();
-#endif 
+void input();
+void line();
+//void message();
+void calculate();
+//void providentfund();
+
+//int calculatesum(int totaldebit,int totalcredit);
+
+//int providentfund2(int basicPay);
+
+
+#endif

@@ -1,29 +1,52 @@
-#include"foo.h"
-#include <stdlib.h>
+
+
+#include "foo.h"
 #include<stdio.h>
-//#include"foo.h"
+#include <stdlib.h>
+
+int main ()
+{
+ 
+   struct User ; 
+ 
+    line();
+    printf("\n\t\t CashFlow Calculator\n");
+    line();
+
+    printf("\n");
+     input();
+ 
 
 
-int main()
-{
-char name[20];
-int choice;
-while(1)
-{
-printf(" \n MENU \n 1.ins \n 2.display \n 3.exit \n");
-scanf("%d",&choice);
-switch(choice)
-{
-case 1:
-printf("enter your name");
-scanf("%s",name);
-insertbeg(name);
-break;
-case 2:display();
-break;
-case 3:exit(0);
-break;
-default:printf("\n wrong input");
-}
-}
+   // providentfund();  
+ /**
+ * @brief calculation of provident fund
+ *
+ */
+    calculate();   
+ /**
+ * @brief calculation of total amount debit and credit , calculation of remaining amount (Deficit or surplus)
+ *
+ */
+
+    system("cls");
+
+    display();
+ 
+ /**
+ * @brief Displays output
+ *
+ */
+
+   // message();      
+  /**
+ * @brief final Message if u are smart budget planner or not.
+ *
+ */
+
+    printf("\n");
+    printf("\n");
+
+    return 0;
+
 }
