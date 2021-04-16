@@ -16,10 +16,9 @@ int main ()
 
     printf("\n");
      align();
- 
+   
+    data();
 
-;  
- 
     analyse();   
  /**
  * @brief calculation of total amount debit and credit , calculation of remaining amount (Deficit or surplus)
