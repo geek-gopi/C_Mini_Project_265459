@@ -11,8 +11,8 @@
  *
  */
 
-void line(){
-        for(i=0;i<=acc;i++){
+void align(){
+        for(i=0;i<=b;i++){
             printf("-");
 
         }    
@@ -25,7 +25,7 @@ void line(){
  */
 
  
-void input(){
+void data(){
         printf("Please Enter Your Name");
         gets(name);
 
@@ -34,124 +34,90 @@ void input(){
         gets(month);
 
         printf("\nCash Spent on Eatting outside");
-        scanf("%f",&fnp);
+        scanf("%f",&food);
 
         printf("\nCash spent on Mobile phone");
-        scanf("%f",&phone);
+        scanf("%f",&mobile);
 
         printf("\n Cash Spent on Outing  ");
-        scanf("%f",&enter);
+        scanf("%f",&outing);
 
         printf("\n Cash spent on travelling ");
-        scanf("%f",&car);
+        scanf("%f",&bike);
 
         printf("\n Other Expenses");
-        scanf("%f",&bills);
+        scanf("%f",&paybills);
 
         printf("\n Monthy Salary ");
-        scanf("%f",&allow);
+        scanf("%f",&sal);
 
-        printf("\nHow much money did you made through your side buisness this month ? ");
-        scanf("%f",&totalside);
-       // printf("The Total side income is Rs% .2f",totalside);
-        
-       // printf("\n");
+        printf("\n Money made from multi source ");
+        scanf("%f",&multi);
+      
 
  }
 
- /**
- * @brief for calculation of providentfund
- *
- */
 
-/* void providentfund(){  
 
-    printf("Enter basic pay: ");
-    scanf("%f",&basicPay);
-     
-    employeeFund=(basicPay/100)*EMPLOYEE_PERCENTAGE;
-    employerFund=(basicPay/100)*EMPLOYER_PERCENTAGE;   
-     
-    
-} */
 
 /**
- * @brief  for calculation of totalamount i.e Deficit amount or Surplus Amount
+ * @brief  for calculation of the budget with the data given by user
  *
  */
 
- void calculate(){
+ void analyse(){
      
-        totalcredit=fnp+phone+enter+car+bills;
-        totaldebit=allow+totalside;
+        totalcredit=food+mobile+outing+bike+paybills;
+        totaldebit=sal+multi;
         total_amount=totaldebit-totalcredit;
  }
 
 
-/**
- * @brief  books function for Expenses on Books
- *
- */
 
-/* int books(int o )
- {
-        for(j=0;j<=o-1;j++)
-		{
-            printf("\nHow much is book %d?:Rs",j+1);
-            scanf("%f",&book[j]);
-            totalbook +=book[j];
-        
-        }
-         printf("\nThe total of %d book is Rs% .2f\n",n,totalbook);
-
- } */
 
 /**
- * @brief  Display function for output
+ * @brief  Show fuction will give the Analysis of the CASHINFLOW AND CASHOUTFLOW
  *
  */
 
 
-void display(){
-    line();
+void show(){
+    align();
 
-    printf("\nCASHFLOW BUDGET\n");
+    printf("\nCASHFLOW ANALYSIS\n");
 
-    line();
+    align();
 
     printf("\n");   
 
-    printf("\t\t\t\tCredit\t\t\tDebit\n");
+    printf("\t\t\t\tCASHOUTFLOW\t\t\tCASHINFLOW\n");
 
-    printf("\nFood and Personal\t\tRs% .2f",fnp);
-    printf("\nPhone and Internet\t\tRs% .2f",phone);
- //   printf("\n\nNumber of Book : %d",n);
-
-  
-        
+    printf("\nEATING OUTSIDE\t\tRs% .2f",food);
+    printf("\nMOBILE AND DATA\t\tRs% .2f",mobile);
+   
 
         printf("\n\n");
-        printf("Entertainment   \t\tRs% .2f" ,enter);
-        printf("\nTransportation   \t\tRs% .2f" ,car);
-        printf("\nMonthly Bills   \t\tRs% .2f",bills);
+        printf("Entertainment   \t\tRs% .2f" ,outing);
+        printf("\nTransportation   \t\tRs% .2f" ,bike);
+        printf("\nMonthly Bills   \t\tRs% .2f",paybills);
 
         printf("\n");
 
-        printf("\n\nIncome through Side buisness\t\t\t\tRs% .2f",totalside);
+        printf("\n\n From Other sources of Income\t\t\t\tRs% .2f",multi);
 
-        printf("\n\nYour Monthly Salary\t\t\t\t\tRs% .2f",allow);
+        printf("\n\nYour Monthly Salary\t\t\t\t\tRs% .2f",sal);
 
 
         printf("\n\n");
 
-        line();
+        align();
 
         printf("\n");
 
         printf("Total(Credit and Debit)\t\tRs%.2f\t\tRs%.2f",totalcredit,totaldebit);
         printf("\n");
 
-        printf("\nMonthly Surplus or Deficit \t\tRs%.2f",total_amount);
+        printf("\n ANALYSIS OF SAVINGS \t\tRs%.2f",total_amount);
 
 
         printf("\n");
@@ -160,23 +126,11 @@ void display(){
       //  printf("Employee contribution: %f\n",employeeFund);
       //  printf("Employer Contribution: %f\n",employerFund);
 
-        line();
+        align();
 
 }
 
 
-/**
- * @brief  Final message if you are a smart budget planner or not this month
- *
- */
-/*
-void message(){
-     if(totalcredit<totaldebit){
-                printf("\n>>Congratualtions %s ,You are a smart budget planner this %s.<<",name,month);
-            }
-            else{
-                printf("\n>> Sorry %s. ,    You are not good with your budget plan this %s.<<",name,month);
-            }
 
-} */
+
                           

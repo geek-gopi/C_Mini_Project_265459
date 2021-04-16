@@ -8,23 +8,19 @@
 int main ()
 {
  
-   struct User ; 
+   struct add ; 
  
-    line();
+    align();
     printf("\n\t\t CashFlow Calculator\n");
-    line();
+    align();
 
     printf("\n");
-     input();
+     align();
  
 
-
-   // providentfund();  
- /**
- * @brief calculation of provident fund
- *
- */
-    calculate();   
+;  
+ 
+    analyse();   
  /**
  * @brief calculation of total amount debit and credit , calculation of remaining amount (Deficit or surplus)
  *
@@ -32,16 +28,10 @@ int main ()
 
     system("cls");
 
-    display();
+    show();
  
  /**
- * @brief Displays output
- *
- */
-
-   // message();      
-  /**
- * @brief final Message if u are smart budget planner or not.
+ * @brief Show gives the output as Sashflow Analysis
  *
  */
 

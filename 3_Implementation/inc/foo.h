@@ -6,44 +6,38 @@
                      /* of interesting problems.*/
 
 #define limit 10
-#define acc 70 
+#define  b 70 
 #define EMPLOYEE_PERCENTAGE 12.5f
 #define EMPLOYER_PERCENTAGE 12.0f
 
-struct User
+struct add
 {
     char name[50];
     float salary;
 }; 
 
-float fnp;
-float phone;
-float enter;
-float car;
-float bills;
-float allow;
-//float side[limit];
-float totalside;
+float food;
+float mobile;
+float outing;
+float bike;
+float paybills;
+float sal;
+
+float multi;
 int i,n;
-//int totalsideInc(int u);
 float totalcredit;
 float totaldebit;
 float total_amount;
-char name[acc];
-char month[acc];
-//float basicPay;
-//float employeeFund,employerFund;
+char name[b];
+char month[b];
 
-void display();
-void input();
-void line();
-//void message();
-void calculate();
-//void providentfund();
 
-//int calculatesum(int totaldebit,int totalcredit);
+void show();
+void data();
+void align();
 
-//int providentfund2(int basicPay);
+void analyse();
+
 
 
 #endif
